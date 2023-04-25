@@ -206,18 +206,20 @@ ul {
 .nero-btn {
   display: block;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color:var(--iris);
+  min-width: 169px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
 
   cursor: pointer;
   text-align: center;
   margin: auto;
-  max-width: 169px;
   height: 56px;
   padding: 0 15px;
   padding-top: 10px;
@@ -232,8 +234,7 @@ ul {
   |============================
 */
 .feature {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0 
 }
 
 .feature-lisk {
