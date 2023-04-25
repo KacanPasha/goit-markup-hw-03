@@ -53,8 +53,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.section {
-}
+
 .list {
   list-style: none;
 }
@@ -159,8 +158,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.heder-contakt-lisk {
-}
+
 
 .heder-contakt-item:not(:last-child) {
   padding-right: 40px;
@@ -231,16 +229,13 @@ ul {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.feature-title {
-}
 
 .feature-lisk {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.feature-item {
-}
+
 .feature-item-title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -282,10 +277,7 @@ ul {
   gap: 24px;
   margin-bottom: 120px;
 }
-.blok-photo-item {
-}
-.blok-photo-img {
-}
+
 /**
   |============================
   | team-section
@@ -317,8 +309,7 @@ ul {
 .team-section-item {
   background-color: var(--white);
 }
-.team-section-avatar {
-}
+
 .team-section-name {
   font-size: 20px;
   font-weight: 500;
@@ -411,8 +402,7 @@ ul {
 .gallery-list {
   list-style: none;
 }
-.gallery-item {
-}
+
 .control-btn {
   cursor: pointer;
   text-align: center;
