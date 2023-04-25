@@ -336,8 +336,7 @@ ul {
   padding-bottom: 32px;
   text-align: center;
 }
-.team-section-img {
-}
+
 /**
   |============================
   | footer
@@ -391,10 +390,6 @@ ul {
   margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
-}
-.centr {
-}
-.control-btn {
 }
 
 /**
@@ -455,8 +450,7 @@ ul {
   color: var(--iris);
   background-color: var(--cloud);
 }
-.gallery-item-img {
-}
+
 .gallery-item-title {
   padding-left: 16px;
   padding-top: 32px;
