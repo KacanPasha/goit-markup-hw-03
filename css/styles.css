@@ -98,6 +98,9 @@ ul {
   justify-content: flex-start;
   color: var(--navy-blue);
 }
+.heder{
+  border-bottom: 1px solid #e7e9fc
+}
 .heder-nav {
   display: flex;
   align-items: center;
@@ -130,10 +133,11 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .heder-list {
   display: flex;
-  padding-left: 76px;
+ 
 }
 
 .heder-item:not(:last-child) {
@@ -185,6 +189,7 @@ ul {
 }
 
 .nero-title {
+  max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -194,7 +199,7 @@ ul {
   text-align: center;
 
   padding-top: 188px;
-  padding-bottom: 48px;
+  padding-bottom: 188px;
 }
 
 .nero-btn {
@@ -242,6 +247,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-text {
   color: var(--slate);
@@ -285,6 +291,8 @@ ul {
 */
 .team-section {
   background-color: var(--cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-section-title {
   font-size: 36px;
@@ -293,8 +301,8 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  
+  margin-bottom: 72px;
 
   color: var(--grey);
 }
@@ -391,6 +399,7 @@ ul {
 .gallery {
   color: var(--navy-blue-modal);
   background-color: var(--white);
+  padding: 96px 0 120px
 }
 .gallery-title {
   font-size: 36px;
@@ -412,6 +421,7 @@ ul {
   padding: 0 24px;
   padding-top: 12px;
   padding-bottom: 12px;
+  border: 1px solid var(--cornflower);
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -422,6 +432,12 @@ ul {
   color: var(--iris);
   background-color: var(--cloud);
 }
+.cont-link{
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+
 .gallery-lisk {
   display: flex;
   flex-wrap: wrap;
@@ -444,6 +460,7 @@ ul {
 .gallery-item-title {
   padding-left: 16px;
   padding-top: 32px;
+  margin-bottom: 8px;
 
   font-weight: 500;
   font-size: 20px;
