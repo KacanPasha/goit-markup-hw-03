@@ -76,6 +76,11 @@ body {
 .bth {
   cursor: pointer;
 }
+.btn-port:hover,
+.btn-port:focus {
+  border: 1px solid transparent;
+
+}
 .control-btn:hover {
   color: var(--white);
 }
@@ -369,7 +374,7 @@ ul {
 }
 
 .footer-logo {
-  
+
   color: var(--iris);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -438,6 +443,7 @@ ul {
 }
 
 .control-btn {
+  border-radius: 4px;
   cursor: pointer;
   text-align: center;
   margin: auto;
