@@ -149,9 +149,7 @@ ul {
  
 }
 
-.heder-item:not(:last-child) {
-  padding-right: 40px;
-}
+
 .heder-link {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -170,6 +168,7 @@ ul {
 .heder-contakt-lisk {
   display: flex;
   align-items: center;
+  gap: 40px
 }
 
 
@@ -370,6 +369,7 @@ ul {
 }
 
 .footer-logo {
+  
   color: var(--iris);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -381,6 +381,8 @@ ul {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px
+
+
 }
 .footer-logo-color {
   color: var(--cloud);
