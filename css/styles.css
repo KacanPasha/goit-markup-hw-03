@@ -84,9 +84,9 @@ body {
 .control-btn:focus {
   color: var(--white);
 }
-ul{
+ul {
   padding-left: 0;
-} 
+}
 
 /**
   |============================
@@ -263,7 +263,6 @@ ul{
 .blok-photo {
   display: block;
   margin: 0 auto;
-
 }
 .blok-photo-title {
   margin: 0 auto;
@@ -282,12 +281,8 @@ ul{
   display: flex;
   gap: 24px;
   margin-bottom: 120px;
-  
-
 }
 .blok-photo-item {
-  
-
 }
 .blok-photo-img {
 }
@@ -297,7 +292,6 @@ ul{
   |============================
 */
 .team-section {
- 
   background-color: var(--cloud);
 }
 .team-section-title {
@@ -313,7 +307,6 @@ ul{
   color: var(--grey);
 }
 .team-section-lisk {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -323,10 +316,8 @@ ul{
 }
 .team-section-item {
   background-color: var(--white);
-
 }
 .team-section-avatar {
-  
 }
 .team-section-name {
   font-size: 20px;
@@ -353,11 +344,10 @@ ul{
   |============================
 */
 .footer {
-
   background-color: var(--navy-blue);
   color: var(--cloud);
 }
-.logo{
+.logo {
   padding-top: 100px;
 }
 .footer-logo {
@@ -389,31 +379,23 @@ ul{
   padding-bottom: 100px;
 }
 
-
 /**
   |============================
   | control
   |============================
 */
-.control-list{
+.control-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
-  
- 
 }
 .centr {
-
-  
-
 }
-.control-btn{
-
+.control-btn {
 }
-
 
 /**
   |============================
@@ -446,7 +428,6 @@ ul{
   padding-top: 12px;
   padding-bottom: 12px;
 
-
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -461,7 +442,6 @@ ul{
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-
 }
 .gallery-lint {
   cursor: pointer;
@@ -489,7 +469,6 @@ ul{
   color: var(--grey);
 }
 .gallery-item-text {
-  
   padding-top: 8px;
   padding-bottom: 32px;
   padding-left: 16px;
@@ -500,4 +479,3 @@ ul{
 
   color: var(--navy-blue-modal);
 }
-
