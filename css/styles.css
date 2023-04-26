@@ -102,11 +102,14 @@ ul {
   align-items: center;
   justify-content: flex-start;
   color: var(--navy-blue);
+
 }
 .heder{
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid var(--cornflower);
   
+ 
 }
+
 .heder-nav {
   display: flex;
   align-items: center;
@@ -119,6 +122,7 @@ ul {
 }
 .heder-logo {
   color: var(--iris);
+  
 
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -132,7 +136,7 @@ ul {
 }
 .heder-logo-color {
   color: var(--navy-blue);
-
+  
   font-size: 18px;
   font-family: "Raleway";
   font-weight: 800;
@@ -145,12 +149,13 @@ ul {
 }
 .heder-logo{
   display: inline-block;
-  margin-bottom: 16px;
 
 }
 .heder-list {
   display: flex;
   gap: 40px;
+  margin-bottom: 24px;
+  margin-top: 24px;
  
 }
 
@@ -203,6 +208,8 @@ ul {
 }
 
 .nero-title {
+ 
+  margin: auto;
   max-width: 496px;
   font-size: 56px;
   font-weight: 700;
@@ -211,7 +218,7 @@ ul {
   text-decoration: none;
   text-transform: none;
   text-align: center;
-
+  padding-bottom: 48px;
 
 }
 
@@ -299,7 +306,7 @@ ul {
 .blok-photo-lisk {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
+
 }
 
 /**
@@ -329,7 +336,7 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
+ 
   margin: 0;
 }
 .team-section-item {
@@ -345,7 +352,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--grey);
   
-  padding-top: 32px;
+ 
   margin-bottom: 8px
   
 }
@@ -353,7 +360,7 @@ ul {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+ 
   text-align: center;
   
 }
@@ -368,6 +375,7 @@ ul {
   |============================
 */
 .footer {
+  margin-top: 120px;
   background-color: var(--navy-blue);
   color: var(--cloud);
   padding: 100px 0 
@@ -429,7 +437,7 @@ ul {
 .gallery {
   color: var(--navy-blue-modal);
   background-color: var(--white);
-  padding: 96px 0 120px
+ 
 }
 .gallery-title {
   font-size: 36px;
@@ -489,8 +497,7 @@ ul {
 }
 
 .gallery-item-title {
-  padding-left: 16px;
-  padding-top: 32px;
+
   margin-bottom: 8px;
 
   font-weight: 500;
@@ -501,11 +508,7 @@ ul {
   color: var(--grey);
 }
 .gallery-item-text {
-  padding-top: 8px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-
-  font-size: 16px;
+ 
   
   line-height: 1.5;
   letter-spacing: 0.02em;
